@@ -1,15 +1,19 @@
-$color-primary: rgb(152, 206, 127);
+$color-primary: rgb(109, 152, 89);
 
 h1 {
     font-size: 5em;
-    font: Parisienne;
+    font-family: Courgette;
     margin-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     color: $color-primary;
 }
 
-// html {
-// background-image: url("outdoor_cafe.jpg");
+html {
+background-image: url("images/outdoor_cafe.jpg");
 
-// }
+}
+
+#gatsby-focus-wrapper {
+    background-color: transparent;
+}

@@ -5,13 +5,13 @@ import Layout from "../components/layout"
 export default function Home({ data }) {
   return (
     <Layout>
+      <div class="bg-transparent">
       <h1> Welcome to Claire's Cafe!</h1>
 
-      <div class="row">
+      <div class="row" >
       {data.allContentfulRecipes.nodes.map((node, index) => (
         <div class="col-lg-3">
         <div class="card h-100 mb-3 d-flex box-shadow">
-          {/* <div class="col-lg-4 d-flex align-items-stretch box-shadow"> */}
           <img class="card-img-top" src={ node.image.file.url } alt={ node.name } data-holder-rendered="true" />
           <div class="card-body">
             <p class="card-text"> {node.name} </p>
@@ -25,6 +25,7 @@ export default function Home({ data }) {
         </div>
       </div>
         ))}
+      </div>
       </div>
     </Layout>
   )
