@@ -3,11 +3,16 @@ import "./layout.scss"
 
 export default function Layout({children}) {
     return (
+        <div>
+        <div id="header">
+             <a id="home_btn" href="/">home</a>
+             <a id="about_me" href="/about">about</a>
+        </div>
         <div class="container">
             {children}
         </div>
-    )
-}
+        </div>
+    )}
 
 
 
