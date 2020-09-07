@@ -1,5 +1,15 @@
-$color-primary: #009;
+$color-primary: rgb(152, 206, 127);
 
 h1 {
+    font-size: 5em;
+    font: Parisienne;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
     color: $color-primary;
 }
+
+// html {
+// background-image: url("outdoor_cafe.jpg");
+
+// }

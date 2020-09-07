@@ -15,5 +15,7 @@ module.exports = {
       accessToken: `zCwwlU_bI8f7hM88oB1PPpDWz_PI_4Ta56IkBKqjY1w`,
       },
     },
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`
   ],
 }
