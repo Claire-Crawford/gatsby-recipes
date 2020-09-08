@@ -2,117 +2,133 @@ $color-primary: rgb(56, 116, 196);
 $color-secondary: rgb(244, 110, 38);
 
 h1 {
-    font-size: 5em;
-    position : absolute;
-    font-family: Courgette;
-    padding-bottom: 20px;
-    text-align: center;
-    color: $color-primary;
-    // margin-top: 2px;
-    margin-left: -320px;
+  font-size: 5em;
+  position: absolute;
+  font-family: Courgette;
+  padding-bottom: 20px;
+  text-align: center;
+  color: $color-primary;
+  margin-left: -320px;
 }
 
 h3 {
-    font-size:2em;
-    color: $color-primary;
-    font-family: Courgette;
-    margin-left: -296px;
-    padding-top: 80px;
+  font-size: 2em;
+  color: $color-primary;
+  font-family: Courgette;
+  margin-left: -296px;
+  padding-top: 80px;
 }
 
 h4 {
-    font-size: 1.3em;
-    color: $color-primary;
-    font-family: Courgette;
-    margin-left: -242px;
-    margin-top: -10px;
+  font-size: 1.3em;
+  color: $color-primary;
+  font-family: Courgette;
+  margin-left: -242px;
+  margin-top: -10px;
 }
 
 h2 {
-    margin-left: -320px;
-    margin-top: 50px;
+  margin-left: -312px;
+  margin-top: 20px;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  color: $color-primary;
+  font-size: 2em;
 }
 
-
 html {
-    background-image: url("images/outdoor_cafe.jpg");
+  background-image: url("images/outdoor_cafe.jpg");
 }
 
 body {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 div#gatsby-focus-wrapper {
-    background-color: transparent;
+  background-color: transparent;
 }
 
-body, html {
-    height: 100%;
-      /* Full height */
-    height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+body,
+html {
+  height: 100%;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  body {
-      margin-top: 60px;
-  }
+body {
+  margin-top: 60px;
+}
 
 .btn-group {
-    background-color: $color-secondary;
+  background-color: $color-secondary;
 }
 
 a {
-    color: black !important;
+  color: black !important;
 }
 
 img.img-thumbnail {
-    width: 60%;
-    float: right;
+  width: 60%;
+  float: right;
 }
 
 .recipe {
-    text-align: right;
-    color: white;
-    font-size: 1em;
-    text-align: left;
+  text-align: right;
+  color: white;
+  font-size: 1em;
+  text-align: left;
 }
 
 .recipe-card {
-    background-color:rgba(0,0,0,.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 #header {
-    margin-left: 74px;
-    margin-top: -50px;
+  margin-left: 74px;
+  margin-top: -50px;
 }
 
 .aboutMe {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .aboutMe h1 {
-    color: rgb(80, 162, 120);
-    font-size: 2em;
-    font-family: "Verdana, Geneva, Tahoma, sans-serif";
-
+  color: rgb(80, 162, 120);
+  font-size: 2em;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  padding-left: 10px;
 }
 
 .aboutMe h2 {
-    color: $color-primary;
-    margin-top: 20px;
-    font-family: Courgette;
+  color: $color-primary;
+  margin-top: 20px;
+  font-family: Courgette;
 }
 
 #home_btn {
-    background-color: rgb(212, 164, 172) !important;
-    padding: 4px;
-    margin-right: 28px;
+  background-color: rgb(212, 164, 172) !important;
+  padding: 4px;
+  margin-right: 28px;
+  border: 2px solid rgb(158, 55, 24);
+  text-decoration: none;
+}
+
+#home_btn:hover {
+  background-color: $color-secondary !important;
+  color: white !important;
 }
 
 #about_me {
-    background-color: rgb(212, 164, 172) !important;
-    padding: 4px;
+  background-color: rgb(212, 164, 172) !important;
+  padding: 4px;
+  border: 2px solid rgb(158, 55, 24);
+  text-decoration: none;
+}
+
+#about_me:hover {
+  background-color: $color-secondary !important;
+  color: white !important;
 }
